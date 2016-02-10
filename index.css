@@ -1,0 +1,22 @@
+* {
+  -webkit-font-smoothing:antialiased;
+  -mac-osx-font-smoothing: greyscale;
+}
+html{
+  font-family: 'Inconsolata';
+  background-color: white
+  color: #333333;
+}
+h1{
+  text-align: center;
+}
+.link{
+  background-color: white;
+  padding: 5px;
+}
+.link:hover{
+  background-color: #efefef;
+}
+.link a{
+  text-decoration: none;
+}
