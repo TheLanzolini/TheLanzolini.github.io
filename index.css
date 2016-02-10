@@ -13,6 +13,7 @@ html{
   padding: 5px;
   text-align: left;
   width: 50%;
+  margin: auto;
 }
 .link:hover{
   background-color: #efefef;
