@@ -6,13 +6,13 @@ html{
   font-family: 'Inconsolata';
   background-color: white
   color: #333333;
-}
-h1{
   text-align: center;
 }
 .link{
   background-color: white;
   padding: 5px;
+  text-align: left;
+  width: 50%;
 }
 .link:hover{
   background-color: #efefef;
