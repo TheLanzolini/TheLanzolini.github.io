@@ -5,7 +5,9 @@
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="index.css">
     <script type="text/javascript">
-      console.log( (/SAMSUNG/).test(navigator.userAgent) );
+      var d = document.createElement('div');
+      d.innerHTML = '<span>'+navigator.userAgent+'</span>'+'<div>'+ (/SAMSUNG/).test(navigator.userAgent) +'</div>';
+      document.body.appendChild(d);
     </script>
   </head>
   <body>
