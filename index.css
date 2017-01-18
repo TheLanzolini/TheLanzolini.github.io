@@ -14,10 +14,16 @@ html{
   text-align: left;
   width: 50%;
   margin: auto;
+  font-size: 14px
 }
 .link:hover{
   background-color: #efefef;
 }
 .link a{
   text-decoration: none;
+}
+@media (max-width: 414px){
+  .link{
+    width: 90%;
+  }
 }
