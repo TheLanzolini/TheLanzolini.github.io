@@ -1,0 +1,96 @@
+.technology_experience {
+  min-height: 100vh;
+}
+
+.technology_experience_title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 5rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  padding: 2rem 0;
+}
+
+.experience,
+.experience_hoverable {
+  position: relative;
+  margin: 0 1.2rem;
+  user-select: none;
+}
+
+.experience_name {
+  font-size: 7rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0.6rem;
+  display: inline-block;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .experience_name {
+    font-size: 4rem;
+  }
+}
+
+.experience_hoverable:hover .experience_name {
+  cursor: pointer;
+  color: white;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.experience_wrapper {
+  padding: 3.2rem 0;
+}
+
+.experience_inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.experience_extra {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  min-width: 200px;
+  text-align: center;
+}
+
+.experience_hoverable:active div:nth-child(2) {
+  opacity: 1;
+}
+
+.experience_info {
+  display: inline-block;
+  text-align: center;
+  color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #dedede;
+  margin-left: 0.6rem;
+}
+
+.experience_extra {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 0.6rem;
+  border: 1px solid black;
+  border-bottom: 2px solid black;
+}
+
+.experience_level {
+  text-align: center;
+}
+
+.experience_level span {
+  padding: 0.6rem 0.8rem;
+  background-color: #eee;
+  border-radius: 16px;
+}

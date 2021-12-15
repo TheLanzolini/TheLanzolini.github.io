@@ -1,0 +1,95 @@
+.work_experience_title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 5rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  padding: 2rem 0;
+}
+
+.box {
+  background-color: white;
+  border: 1px solid black;
+  border-bottom: 2px solid black;
+  border-radius: 4px;
+  padding: 1.2rem;
+}
+
+.work_experience_tile {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+
+.work_experience_inner {
+  min-height: 50vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 3.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work_experience_inner_p {
+  composes: box;
+  max-width: 500px;
+  margin-left: 1.2rem;
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.work_experience_inner_p p {
+  margin-top: 0;
+}
+
+.work_experience_inner blockquote {
+  padding-left: 1.6rem;
+  border-left: 2px solid grey;
+}
+
+.work_experience_badge {
+  composes: box;
+  width: 100px;
+  height: 100px;
+}
+
+.work_experience_badge img {
+  border-radius: 4px;
+}
+
+.work_experience_top {
+  display: flex;
+}
+
+.work_experience_content {
+  composes: box;
+  margin-left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+}
+
+.work_experience_wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .work_experience_inner {
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+  }
+  .work_experience_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .work_experience_top {
+    margin-bottom: 1.6rem;
+  }
+  .work_experience_inner_p {
+    margin-left: 0;
+  }
+}

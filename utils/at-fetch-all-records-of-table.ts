@@ -12,7 +12,6 @@ const atFetchAllRecordsOfTable = (
       })
       .eachPage(
         function page(records, fetchNextPage) {
-          console.log('hello');
           allRecords.push(...records);
 
           // To fetch the next page of records, call `fetchNextPage`.

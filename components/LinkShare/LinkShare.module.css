@@ -1,0 +1,41 @@
+.link_share_title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 5rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  padding: 2rem 0;
+}
+
+.link_share_subtitle {
+  text-align: center;
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 0 0 1.2rem 0;
+}
+
+.link_share {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.link_share_inner {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.link_share_block {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-bottom: 2px solid black;
+  border-radius: 4px;
+  color: black;
+  margin: 1.2rem;
+}
